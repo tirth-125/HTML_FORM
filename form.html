@@ -1,0 +1,96 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <style>
+         
+        div {
+            justify-content: center;
+            align-items: center;
+            /* text-align: center; */
+            background-color: lightgrey;
+            width: 300px;
+            border: 10px solid rgb(12, 30, 44);
+            padding: 50px;
+            margin: 20px;
+        }
+        form{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <h2 style="text-align: center;">Registration Form</h2> -->
+    <!-- <div> -->
+        
+    <form>
+        
+        <div class="Formreg">
+            <textarea name="Registration form" id="Registration form" cols="40" rows="1"
+            style="color: rgb(255, 255, 255); text-align: center; font: bold;background-color: brown;">Registration Form</textarea>
+            
+        <br>
+        <br>
+        <label for="fname">First Name:</label>
+        <input type="text" placeholder="First Name" id="fname" name="fname">
+        <br>
+        <br>
+
+        <label for="mname">Midle name:</label>
+        <input type="text" placeholder="Midle name" id="mname" name="mname">
+        <br>
+        <br>
+
+        <label for="lname">last Name:</label>
+        <input type="text" placeholder="Last name" name="lname" id="lname">
+        <br>
+        <br>
+
+        <label for="Enrollment No">Enrollment No. :</label>
+        <input type="num" id="Enrollment No" placeholder="Enrollment No"  name="Enrollment No">
+        <br>
+        <br>
+
+        <label for="Email"> Email Address :</label>
+        <input type="text,num" placeholder="Email Address " id="Email" name="Email">
+        <br>
+        <br>
+        <strong><b>Date</b></strong>: <input type="date" name="Date">
+        <br>
+        <br>
+
+        <label for="PhnNum">Phone number :</label>
+        <input type="num" placeholder="Enter Your number " id="PhnNum" name="Phnnum">
+        <br>
+        <br>
+
+        <label for="Gender">Gender : </label>Male
+        <input type="radio" id="Gender" name="Gender" value="MALE">Female
+        <!-- <br>
+        <br> -->
+
+        <input type="radio" id="Gender" name="Gender" value="FEMALE">
+        <br>
+        <br>
+
+        <label for="Language">Language :</label>
+        <select name="Language" id="Language">
+            <option value="English">English</option>
+            <option value="Hindi">Hindi</option>
+            <option value="Gujarati">Gujarati</option>
+        </select>
+        <br>
+        <br>
+        
+            <button>submit</button>
+            <button>Reset</button>
+    </div>
+    </form>
+</body>
+</html>
